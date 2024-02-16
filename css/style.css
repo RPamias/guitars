@@ -1,0 +1,20 @@
+.card img{
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card{
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.card-body{
+    height: fit-content;
+}
+
+.table img {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
