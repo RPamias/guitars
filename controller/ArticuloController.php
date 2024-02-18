@@ -45,7 +45,9 @@ class ArticuloController {
 
     public function detail() {
         $id = $_GET['id'];
-        ArticuloDAO::detail($id);
-        header("Location:".url."?controller=Articulo&action=detail");
+        ArticuloDAO::getArticuloById($id);
+        $view = 'views/articulos/detail.php';
+        include_once 'views/main.php';
+        //header("Location:".url."?controller=Articulo&action=detail");
     }
 }

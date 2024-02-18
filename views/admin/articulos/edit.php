@@ -23,7 +23,7 @@
         <br>
         <input type="number" name="precio" placeholder="precio" value="<?=$articulo->getPrecio() ?>" required/>
         <br>
-        <textarea name="descripcion" placeholder="Descripcion" required><?=$articulo->getDescripcion() ?></textarea>
+        <textarea name="descripcion" placeholder="Desc" required><?=$articulo->getDescripcion() ?></textarea>
         <br>
         <select name="idcategoria">
             <?php foreach($listacategorias as $cat){ ?>

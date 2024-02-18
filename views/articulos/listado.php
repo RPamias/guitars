@@ -3,6 +3,7 @@
         <?php
         foreach ($listaarticulos as $articulo) {
         ?>
+
             <div class="col-2">
                 <div class="card" style="margin-bottom:0.25rem">
                     <a href="?controller=Articulo&action=detail"><img class="card-img-top" src="img/<?= $articulo->getImg() ?>" alt="Card image cap"></a>
